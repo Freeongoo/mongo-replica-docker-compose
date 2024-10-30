@@ -6,6 +6,13 @@ It is convenient to launch it to check and work with replicas on the local machi
 
 need install docker and docker compose
 
+## Config key
+
+```
+echo "yourSecretKey" > mongo-keyfile
+chmod 600 mongo-keyfile
+```
+
 ## Run
 
 ```
